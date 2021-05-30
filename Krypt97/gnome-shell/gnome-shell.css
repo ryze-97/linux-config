@@ -5,3 +5,7 @@ stage {
 #panel {
     height: 1.70em;
 }
+
+#panel .panel-corner {
+  -panel-corner-radius: 0;
+}
