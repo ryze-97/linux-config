@@ -7,5 +7,6 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Mojave-light
 MetacityTheme=Mojave-light
-CursorTheme=McMojave Cursors
+IconTheme=Adwaita
+CursorTheme=Adwaita
 ButtonLayout=close,minimize,maximize:menu

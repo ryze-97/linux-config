@@ -7,5 +7,6 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Mojave-dark-solid
 MetacityTheme=Mojave-dark-solid
+IconTheme=McMojave-circleMojave-dark
 CursorTheme=McMojave Cursors
 ButtonLayout=close,minimize,maximize:menu
