@@ -276,7 +276,7 @@ StWidget.focused .app-well-app-running-dot {
   box-shadow: none;
 }
 
-.show-apps .show-apps-icon {
+/*.show-apps .show-apps-icon {
   color: transparent !important;
   background-image: url("assets/view-app-grid.svg");
   background-size: contain;
@@ -284,7 +284,7 @@ StWidget.focused .app-well-app-running-dot {
 
 .show-apps .overview-icon, .show-apps .show-apps-icon {
   color: transparent !important;
-}
+}*/ /* Desactiva el icono de aplicaciones del dash */
 
 .workspace-switcher-container, .switcher-list, .resize-popup, .osd-window {
   color: #dedede;
@@ -1437,7 +1437,7 @@ StEntry StLabel.hint-text {
 /* Login Dialog */
 #lockDialogGroup {
   background-color: #2a2a2a;
-  background-image: url("assets/background.png");
+/*  background-image: url("assets/background.png");*/
   background-size: cover;
 }
 
@@ -2414,7 +2414,7 @@ StEntry StLabel.hint-text {
   background-color: #2a2a2a;
   font-weight: normal;
   height: 28px;
-  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.35);
+/*  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.35);*/ /* Esto causa el efecto negro en la overview */
   color: #dadada;
   font-feature-settings: "tnum";
   transition-duration: 250ms;
@@ -3263,7 +3263,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .dash-background {
-  background-color: rgba(42, 42, 42, 0.25);
+  background-color: #3b3b3b /*rgba(42, 42, 42, 0.25);*/ /* Fondo del dash to dock */
   margin-bottom: 12px;
   padding: 8px;
   border-radius: 24px;
@@ -3294,7 +3294,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 #overviewGroup {
   background-color: #2a2a2a;
-  background-image: url("assets/background.png");
+/*  background-image: url("assets/background.png");*/
   background-repeat: no-repeat;
   background-size: cover;
 }

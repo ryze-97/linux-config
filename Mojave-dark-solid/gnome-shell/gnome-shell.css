@@ -1367,7 +1367,7 @@ StEntry StLabel.hint-text, .popup-menu .search-entry StLabel.hint-text {
 
 /* Login Dialog */
 #lockDialogGroup {
-  background: url("assets/background.png");
+/*  background: url("assets/background.png");*/
   background-size: cover;
 }
 
@@ -2334,7 +2334,7 @@ StEntry StLabel.hint-text, .popup-menu .search-entry StLabel.hint-text {
   background-color: #2a2a2a;
   font-weight: normal;
   height: 28px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.3);
+/*  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.3);*/ /* Bug de sombra en overview */
   color: #dadada;
   transition-duration: 250ms;
   text-shadow: none;
@@ -3158,7 +3158,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .dash-background {
-  background-color: rgba(34, 34, 34, 0.75);
+  background-color: #3b3b3b /*rgba(34, 34, 34, 0.75);*/ /* Fondo del dash to dock */
   margin-bottom: 16px;
   padding: 10px;
   border-radius: 22px;
@@ -3189,7 +3189,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 #overviewGroup {
   background-color: #2a2a2a;
-  background-image: url("assets/background.png");
+/*  background-image: url("assets/background.png");*/
   background-repeat: no-repeat;
   background-size: cover;
 }
